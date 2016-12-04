@@ -1,0 +1,17 @@
+ nav {
+     justify-content: center;
+
+ }
+ .hyper {
+     border: 1px solid;
+     padding: 5px 15px;
+     text-decoration: none;
+     color: black;
+ }
+ 
+ .hyper:hover {
+     background: #e9e9ce;
+     color: red;
+     
+ }
+ 
