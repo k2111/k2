@@ -1,41 +1,36 @@
-
 nav {
-     justify-content: space-around;
-     display: flex;
-
- }
- iv:hover {
-  
-     border: 1px solid;
- -->  
- } 
- .hyper {
-     border: 1px solid;
-     text-decoration: none;
-     color: black;
- }
- 
- .hyper:hover {
-     background: #e9e9ce;
-     color: red;
-     
- }
- 
-div {
- display: flex;
- justify-content: center;
- 
+    justify-content: space-around;
+    display: flex;
 }
+<!--
+iv:hover {
+    border: 1px solid;
+    -->
+}
+
+.hyper {
+    border: 1px solid;
+    text-decoration: none;
+    color: black;
+}
+
+.hyper:hover {
+    background: grey;
+    color: red;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
 div1 {
- display: flex;
- justify-content: center;
- 
+    display: flex;
+    justify-content: center;
 }
 
 footer {
-  position: fixed;
- bottom: 0;
- left: 30%;
-
- 
+    display: flex;
+    justify-content: center;
+    bottom: 0;
 }
