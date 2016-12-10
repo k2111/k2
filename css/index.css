@@ -1,18 +1,13 @@
 body {
-background-image: url("skar.jpg");
-
-   
-
+    background-image: url("skar.jpg");
+    /*  background-repeat: no-repeat;*/
+    background-size: cover;
 }
-
-
 
 nav {
     justify-content: space-around;
     display: flex;
 }
-
-
 
 .hyper {
     border: 1px solid;
@@ -36,7 +31,7 @@ footer {
     display: flex;
     justify-content: center;
     bottom: 0;
-        align-items: center;
+    align-items: center;
 }
 
 input[type=number] {
@@ -50,28 +45,30 @@ input[type=button] {
 footer1 {
     display: flex;
     justify-content: center;
-     align-items: center;
-    
+    align-items: center;
 }
 
 article {
-    display:flex;
+    display: flex;
     color: blue;
-  justify-content: center;
-align-items: center;
-  height: 400px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
 }
 
+textarea {
+    color: #2E2E2E;
+    background-color: #E6E6E6
+}
 
-textarea { color: #2E2E2E;
-background-color: #E6E6E6 }
-
-input { 
-    text-align: right; 
+input {
+    text-align: center;
+    background-color: #E6E6E6
 }
 
 divB {
     display: flex;
     justify-content: center;
-     align-items: center;
+    align-items: center;
 }
+
