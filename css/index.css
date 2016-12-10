@@ -1,32 +1,77 @@
+body {
+background-image: url("skar.jpg");
+
+   
+
+}
+
+
+
 nav {
     justify-content: space-around;
     display: flex;
 }
-<!--
-iv:hover {
-    border: 1px solid;
-    -->
-}
+
+
 
 .hyper {
     border: 1px solid;
+    border-radius: 5px;
     text-decoration: none;
     color: black;
+    background: #E6E6E6;
 }
 
 .hyper:hover {
-    background: grey;
-    color: red;
+    background: #BDBDBD;
+    color: #2E2E2E;
 }
 
 div {
-    display: flex;
+    display: inline-table;
     justify-content: center;
-
 }
 
 footer {
     display: flex;
     justify-content: center;
     bottom: 0;
+        align-items: center;
+}
+
+input[type=number] {
+    width: 30px;
+}
+
+input[type=button] {
+    width: 35px;
+}
+
+footer1 {
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    
+}
+
+article {
+    display:flex;
+    color: blue;
+  justify-content: center;
+align-items: center;
+  height: 400px;
+}
+
+
+textarea { color: #2E2E2E;
+background-color: #E6E6E6 }
+
+input { 
+    text-align: right; 
+}
+
+divB {
+    display: flex;
+    justify-content: center;
+     align-items: center;
 }
