@@ -72,3 +72,9 @@ divB {
     align-items: center;
 }
 
+table {
+    color: #2E2E2E;
+    background-color: #E6E6E6
+}
+
+#ok { background-color: blue !important; }
