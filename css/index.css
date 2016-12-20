@@ -1,8 +1,8 @@
-/*body {*/
-/*    background-image: url("skar.jdg");*/
-      /*background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*}*/
+body {
+    background-image: url("skar.jpg");
+      background-repeat: no-repeat;
+    background-size: cover;
+}
 
 nav {
     justify-content: space-around;
