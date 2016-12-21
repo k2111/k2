@@ -1,5 +1,56 @@
-
 @media screen and (max-width: 720px) {
+    nav {
+        display: inline-block;
+        width: 200px;
+    }
+    .hyper {
+        color: white;
+        font-size: 27px;
+        background: grey;
+        font-weight: bold;
+    }
+    .hyp {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 310px) {
     body {
-        display: none;        
-    }}
+        background-image: url("nokia.jpg");
+        background-repeat: no-repeat;
+    }
+    .hyp {
+        display: none
+    }
+    div {
+        display: none
+    }
+    footer {
+        display: none
+    }
+    article {
+        display: none
+    }
+    
+    .nokia {
+        animation: blink 2s linear infinite;
+    }
+}
+
+@keyframes blink {
+    50% {
+        color: white;
+    }
+    51% {
+        color: white;
+    }
+    100% {
+        color: orange;
+    }
+}
+
+@media screen and (min-width: 310px) {
+    .nokia {
+        display: none;
+    }
+}
