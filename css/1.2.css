@@ -1,0 +1,47 @@
+body {
+    background-image: url("skar.jpg");
+      /*background-repeat: no-repeat;*/
+    background-size: cover;
+}
+
+div {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    display: flex;
+}
+
+nav1 {
+     flex-direction: column;
+    display: flex;
+    float: left;
+}
+nav2 {
+      flex-direction: column; 
+  float: right;
+}
+
+nav3 {
+  justify-content: center;
+    align-items: center;
+    display: flex;
+        color: black;
+    background: #E6E6E6;
+}
+
+.hyper {
+    border: 1px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background: #E6E6E6;
+}
+
+.hyper:hover {
+    background: #BDBDBD;
+    color: #2E2E2E;
+}
